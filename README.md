@@ -81,3 +81,10 @@ git merge feature/ramas # Me traigo a main lo que tenía en la rama feature/rama
 ```sh
 git merge --abort
 ```
+
+## Eliminar una rama
+
+
+```sh
+git branch -d <nombre rama> # Si la rama que estoy borrando ya fue fusionada me va a borrar la rama
+git branch -D <nombre rama> # confirmacion de borrado de una rama que todavia no ha sido fusionada en el repositorio
